@@ -34,7 +34,7 @@ export default function LandingPage() {
       navItems={[
         { name: "Home", id: "hero" },
         { name: "About", id: "about" },
-        { name: "Menu", id: "menu" },
+        { name: "Menu", id: "/menu" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="Royal Indian Tandoor"
@@ -45,7 +45,7 @@ export default function LandingPage() {
       <HeroCarouselLogo
       logoText="Authentic Indian Spices"
       description="Discover the rich tapestry of Indian heritage with our traditional curries, aromatic biryanis, and fresh tandoori specialties."
-      buttons={[{ text: "Explore Menu", href: "#menu" }]}
+      buttons={[{ text: "Explore Menu", href: "/menu" }]}
       slides={[
         { imageSrc: "http://img.b2bpic.net/free-photo/chicken-tikka-masala-with-naan-bread-onion-peppers_141793-2144.jpg", imageAlt: "Chicken Tikka Masala" },
         { imageSrc: "http://img.b2bpic.net/free-photo/delicious-indian-dosa-served-with-chutney-sambar_141793-2155.jpg", imageAlt: "South Indian Dosa" },
@@ -165,7 +165,7 @@ export default function LandingPage() {
       <FooterBaseCard
       logoText="Royal Indian Tandoor"
       columns={[
-        { title: "Navigation", items: [{ label: "Menu", href: "#menu" }, { label: "About", href: "#about" }] },
+        { title: "Navigation", items: [{ label: "Menu", href: "/menu" }, { label: "About", href: "#about" }] },
         { title: "Legal", items: [{ label: "Privacy", href: "#" }, { label: "Terms", href: "#" }] },
       ]}
     />
